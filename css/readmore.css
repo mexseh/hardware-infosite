@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#00141a, #008fb3);
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    position: absolute;
+    bottom: 72%;
+    right: 82%;
+}
+.logo {
+    
+    max-width: 350px; /* Adjust the size of the logo */
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 120px;
+    
+}
+
+.card{
+    width: 350px;
+    background-color:  #003644;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.card:hover{
+    transform: translateY(-40px);
+}
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 20px;   
+}
+
+.card-content h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(255, 251, 0);
+}
+
+.card-content p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+.card-button {
+    display: inline-block;
+    text-decoration: none; /* Remove default underline for anchor element */
+    background-color: #00b0d3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 10%;
+    margin-top: 7%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-button:hover {
+    background-color: #fff;
+    color: #013544;
+    box-shadow: 0 0 20px rgba(0, 213, 255, 0.8);
+    transform: scale(1.1);
+}
+
+/*HOME AND NEXT PAGE BUTTON!*/
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.home-button,
+a.next-button{
+    background-color: #00b0d3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+a.home-button:hover,
+a.next-button:hover{
+    background-color: #fff;
+    color: #013544;
+    box-shadow: 0 0 20px rgba(0, 213, 255, 0.8);
+    transform: scale(1.1);
+}
+
+a.home-button {
+    margin-left: 20px;
+}
+
+a.next-button {
+    margin-right: 20px;    
+}
+
+/*NOTE I HAVE USED THE SAME BUTTON FOR BOTH THE PAGES. COMPNENT 1 AND COMPNENTS 2. I HAVE ONLY CHANGED THE BUTTON NAME! WITH "PREV" INSTEAD OF "NEXT" IN COMPONENTS 2.!!*/

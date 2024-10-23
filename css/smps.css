@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#00141a, #008fb3);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80vw;  /* Adjust the width to your desired size */
+    height: 80vh; /* Adjust the height to your desired size */
+    background-color: #013544;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Adjust the intensity by changing the last two values */
+    border-radius: 2%; /* Set border-radius to 0 for square cornrs*/
+    overflow: hidden;    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 110px; /* Adjust the size of the logo */
+}
+
+/*SMPS CONTENT PIC*/
+
+.smpslogo {
+    width: 60vh;
+    height: 50vh;
+    margin-top: -20px;
+    margin-left: 32%;
+}
+
+/*UPS CONTENT PIC*/
+.upslogo {
+    width: 100vh;
+    height: 64vh;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+
+/* Center text within the container */
+.container h1,
+.container p {
+    margin: 0;
+    text-align: center;
+}
+
+/* Adjust the left margin of the text */
+.container h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+    text-shadow: 0 0 10px rgb(247, 251, 0);/*add a glow effect */
+    margin-right: 0%;
+    margin-top: -9%;
+
+}
+
+.container p{
+    margin-top: 1%;
+    margin-left: 5%;
+    text-align: left;
+    font-family: 'Tw cen MT', sans-serif;
+    font-size: 25px; /* Set the font size for the paragraph */
+    font-weight: bold;
+    /*text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);*/
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: #ffffff; /* Set the font color for the paragraph */
+}
+
+.container h3{
+    font-family: 'Anton', sans-serif;
+    font-size:30px;
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+    text-shadow: 0 0 10px rgb(247, 251, 0);/*add a glow effect */
+    text-align: center;
+    margin-top: 1%;
+}
+
+/*button and glow*/
+
+.glow-button {
+    display: inline-block;
+    text-decoration: none; /* Remove default underline for anchor element */
+    background-color: #00b0d3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 10%;
+    margin-top: 7%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.glow-button:hover {
+    background-color: #fff;
+    color: #013544;
+    box-shadow: 0 0 20px rgba(0, 213, 255, 0.8);
+    transform: scale(1.1);
+}
+
+/*HOME AND NEXT PAGE BUTTON!*/
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.home-button,
+a.next-button{
+    background-color: #00b0d3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+a.home-button:hover,
+a.next-button:hover{
+    background-color: #fff;
+    color: #013544;
+    box-shadow: 0 0 20px rgba(0, 213, 255, 0.8);
+    transform: scale(1.1);
+}
+
+a.home-button {
+    margin-left: 20px;
+}
+
+a.next-button {
+    margin-right: 20px;    
+}
+
+/*NOTE I HAVE USED THE SAME BUTTON FOR BOTH THE PAGES. COMPONENT 1 AND COMPONENTS 2. I HAVE ONLY CHANGED THE BUTTON NAME! WITH "PREV" INSTEAD OF "NEXT" IN COMPONENTS 2.!!*/
