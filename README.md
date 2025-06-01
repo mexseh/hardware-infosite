@@ -3,7 +3,7 @@
 An educational static website that covers essential computer hardware components — aimed at beginners and tech enthusiasts.
 
 ## 🌐 Live Site
-[Click here to view] (  )
+[Click here to view] ( https://mexseh.github.io/hardware-infosite/ )
 
 ## 🛠️ Tech Stack
 
