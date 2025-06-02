@@ -17,3 +17,11 @@ An educational static website that covers essential computer hardware components
 - Brand-specific breakdowns (Intel, AMD, NVIDIA, etc.)
 - Fully static and fast-loading
 - Clean HTML & CSS-based structure
+
+## ⚡ What I Learned
+
+- Creating a responsive multi-page site using HTML5 and CSS3.
+- Designing clean layouts with modular, reusable CSS classes.
+- Writing semantic HTML for clarity and structure.
+- Publishing static sites using GitHub Pages.
+- Exploring how to present technical content for educational purposes.
